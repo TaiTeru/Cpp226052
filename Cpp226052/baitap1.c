@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 
-void main_bai1() {
+void main_bai11() {
 
 	// Bai tap nhap vao 1 so nguyen n, kiem tra n la so duong, so am hay bang 0
 	int n;
