@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 
-void main_baitap6() {
+void main_baitap66() {
 // Tao menu bang switch
 	int n, a, b;
 
