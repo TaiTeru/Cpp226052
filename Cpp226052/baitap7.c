@@ -12,7 +12,7 @@ void main_baitap7() {
 	}
 	else {
 		printf("Cac so chan trong khoan tu 1 toi %d la: \n", n);
-		for (int i = 0; i <= n; i++) {
+		for (int i = 1; i <= n; i++) {
 			if (i % 2 == 0) {
 				printf("%d ", i);
 			}
