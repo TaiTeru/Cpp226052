@@ -9,6 +9,7 @@ void main_baitap222() {
 	printf("Nhap vao 1 so nguyen n: ");
 	if (scanf("%d", &n) != 1) {
 		printf("n khong hop le");
+		return;
 	}
 	else if (n % 2 == 0) {
 		printf("n la so chan");
