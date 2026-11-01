@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.c">
+    <ClCompile Include="baitap1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="baitap2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
