@@ -9,6 +9,7 @@ void main_baitap3() {
 	printf("Nhap vao 2 so nguyen a, b: ");
 	if (scanf("%d %d", &a, &b) != 2) {
 		printf("a hoac b khong hop le");
+		return;
 	}
 	else if (a > b) {
 		printf("So lon nhat trong 2 so a, b la: %d", a);
