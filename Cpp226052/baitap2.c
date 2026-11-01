@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 
-void main_baitap22() {
+void main_baitap222() {
 
 	// Bai tap nhap vao 1 so nguyen n, kiem tra n la so chan hay so le
 	int n;
