@@ -9,6 +9,7 @@ void main_baitap4() {
 	printf("Nhap vao 3 so nguyen a, b, c: ");
 	if (scanf("%d %d %d", &a, &b, &c) != 3) {
 		printf("a, b hoac c khong hop le");
+		return;
 	}
 	else {
 		int max = a;
