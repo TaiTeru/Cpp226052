@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 
-void main() {
+void main_baitap5() {
 
 	// Bai tap nhap vao chi so dien tieu thu trong thang. Tinh tien dien theo quy tac
 	// 0 - 50 kWh = 1.800d/kWh
