@@ -1,24 +1,25 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+#include <math.h>
 
-int main() {
-	char c;
-	//printf("Nhap ki tu bat ky: ");
-	//scanf("%c", &c);
-	//printf("he thap phan: %d\n", c);
-	//printf("he thap luc phan: %x\n", c);
+void main() {
 
-	// In tong hieu tich
+	// Bai tap nhap vao 1 so nguyen n, kiem tra n la so duong, so am hay bang 0
+	int n;
+	printf("Nhap vao 1 so nguyen n: ");
+	
+	if (scanf("%d", &n) != 1) {
+		printf("n khong hop le");
+	}
+	else if (n > 0) {
+		printf("n la so duong");
+	}
+	else if (n < 0) {
+		printf("n la so am");
+	}
+	else {
+		printf("n bang 0");
 
-	int a = 0;
-	int b = 0;
-	printf("Nhap vao a: ");
-	scanf("%d", &a);
-	printf("Nhap vao b: ");
-	scanf("%d", &b);
-	printf("Tong: %d \n", a + b);
-	printf("Hieu: %d \n", a - b);
-	printf("Tich: %d \n", a * b);
-	printf("Thuong: %f \n", (float)a / b);
+	}
 
 }
