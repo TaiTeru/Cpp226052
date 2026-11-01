@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 
-void main() {
+void main_baitap3() {
 
 	// Bai tap nhap vao 2 so nguyen a, b. Tim va in ra so lon nhat trong 2 so a, b
 	int a, b;
