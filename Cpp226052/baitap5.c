@@ -14,6 +14,7 @@ void main_baitap5() {
 	printf("Nhao vao chi so dien tieu thu trong thang : \n");
 	if (scanf("%lf", &kWh) != 1) {
 		printf("So kWh khong hop le");
+		return;
 	}
 	else {
 		if (kWh <= 50) {
