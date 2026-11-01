@@ -10,6 +10,7 @@ void main_bai11() {
 	
 	if (scanf("%d", &n) != 1) {
 		printf("n khong hop le");
+		return;
 	}
 	else if (n > 0) {
 		printf("n la so duong");
